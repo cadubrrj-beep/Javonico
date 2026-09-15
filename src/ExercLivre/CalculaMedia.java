@@ -1,3 +1,5 @@
+package ExercLivre;
+
 import java.util.Scanner;
 
 public class CalculaMedia {
