@@ -6,6 +6,7 @@ public class Veiculo {
     private boolean farol;
     private String portas;
     private String travas;
+    private int acelerador;
     private double velocidade;
 
     // Métodos de acesso e modificadores - getters() e setters()
@@ -34,12 +35,25 @@ public class Veiculo {
 
 
 
+    public int getAcelerador() {
+        return acelerador;
+    }
+
+    public void setAcelerador(int acelerador) {
+        this.acelerador = acelerador;
+    }
+
+
+
     public String getPortas() {
         return portas;
     }
 
     public void setPortas(String portas) {
         this.portas = portas;
+        if (motor) {
+            portas = "fechadas";
+        }
     }
 
 
