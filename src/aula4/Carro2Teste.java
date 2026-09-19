@@ -9,6 +9,8 @@ public class Carro2Teste {
         carroUber1.exibirInfo();
 
         Carro2 carroUber2 = new Carro2("Honda", "Xyz", 2026);
+        carroUber2.setCor("vermelho");
+        carroUber2.setPreco(250000);
         carroUber2.exibirInfo();
 
         Carro2 carroUber3 = new Carro2("Honda", "Xyz", 2026, "vermelho", 250000);
