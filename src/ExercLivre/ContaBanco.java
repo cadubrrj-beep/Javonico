@@ -9,7 +9,6 @@ public class ContaBanco {
     private float saldo;
     private String tipoCt;
     private boolean status;
-    private float valor;
 
     // Construtores
 
@@ -80,26 +79,24 @@ public class ContaBanco {
         this.status = status;
     }
 
-    public float getValor() {
-        return valor;
-    }
-
-    public void setValor(float valor) {
-        this.valor = valor;
-    }
-
 
     // Outros métodos
 
     public void depositar(float valor) {
-        saldo = saldo + valor;
+        if (valor > 0) {
+            saldo += valor;
+        } else {
+            System.out.println("Valor de depósito inválido.");
+        }
     }
 
     public void sacar(float valor) {
-        if (valor <= saldo) {
-            saldo = saldo - valor;
-        } else {
+        if (valor <= 0) {
+            System.out.println("Valor de saque inválido.");
+        } else if (valor > saldo) {
             System.out.println("Saldo insuficiente.");
+        } else {
+            saldo -= valor;
         }
     }
 
@@ -111,7 +108,4 @@ public class ContaBanco {
         System.out.println("Situação da conta: " + status);
         System.out.println("---------");
     }
-
-
-
 }
