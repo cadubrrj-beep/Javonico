@@ -1,6 +1,4 @@
-package aula4;
-
-import aula3.Personagem;
+package aula3;
 
 public class Carro2Teste {
     public static void main(String[] args) {

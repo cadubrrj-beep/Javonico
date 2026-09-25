@@ -9,7 +9,6 @@ public class Personagem {
 
 
     //construtores
-
     //construtor padrão (default)
 
     public Personagem(){
