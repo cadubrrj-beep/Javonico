@@ -1,4 +1,7 @@
 package AluraJava;
+
+// 1. Crie um programa que realize a média de duas notas decimais e exiba o resultado.
+
 import java.util.Scanner;
 
 public class MediaJava {
