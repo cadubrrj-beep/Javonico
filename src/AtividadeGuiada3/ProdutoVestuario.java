@@ -8,6 +8,8 @@ public class ProdutoVestuario extends Produto {
         this.percentualDesconto = percentualDesconto;
     }
 
+    // Getters and setters
+
     public double getPercentualDesconto() {
         return percentualDesconto;
     }
@@ -15,6 +17,8 @@ public class ProdutoVestuario extends Produto {
     public void setPercentualDesconto(double percentualDesconto) {
         this.percentualDesconto = percentualDesconto;
     }
+
+    // Metodos
 
     @Override
     public double calcularPrecoFinal() {

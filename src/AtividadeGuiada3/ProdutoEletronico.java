@@ -8,6 +8,8 @@ public class ProdutoEletronico extends Produto {
         this.taxaGarantiaEstendida = taxaGarantiaEstendida;
     }
 
+    //Getters and setters
+
     public double getTaxaGarantiaEstendida() {
         return taxaGarantiaEstendida;
     }
@@ -15,6 +17,8 @@ public class ProdutoEletronico extends Produto {
     public void setTaxaGarantiaEstendida(double taxaGarantiaEstendida) {
         this.taxaGarantiaEstendida = taxaGarantiaEstendida;
     }
+
+    // Metodos
 
     @Override
     public double calcularPrecoFinal() {

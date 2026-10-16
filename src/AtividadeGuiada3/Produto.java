@@ -9,6 +9,8 @@ public class Produto {
         this.precoBase = precoBase;
     }
 
+    //Getters And Setters
+
     public String getNome() {
         return nome;
     }
@@ -24,6 +26,8 @@ public class Produto {
     public void setPrecoBase(double precoBase) {
         this.precoBase = precoBase;
     }
+
+    //Metodos
 
     public double calcularPrecoFinal() {
         return precoBase;

@@ -6,7 +6,7 @@ public class Caixa {
         System.out.println("Produto: " + produto.getNome());
         System.out.printf("Preco base: R$ %.2f%n", produto.getPrecoBase());
         System.out.printf("Preco final: R$ %.2f%n", produto.calcularPrecoFinal());
-        System.out.println("------------------------------");
+        System.out.println("-----------------------------------");
     }
 
     public static void simularCompraPorCategoria(int opcao, String nome, double precoBase) {
