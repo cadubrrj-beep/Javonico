@@ -8,6 +8,8 @@ public class DoacaoSuprimento extends Doacao {
         this.pesoKg = pesoKg;
     }
 
+
+
     public double getPesoKg() {
         return pesoKg;
     }
@@ -15,6 +17,8 @@ public class DoacaoSuprimento extends Doacao {
     public void setPesoKg(double pesoKg) {
         this.pesoKg = pesoKg;
     }
+
+
 
     @Override
     public double calcularTaxaAdministrativa() {

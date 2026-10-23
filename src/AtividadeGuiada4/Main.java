@@ -18,7 +18,7 @@ public class Main {
         System.out.println("---- Comprovante de doação ----");
         System.out.println(d.exibirResumo());
 
-        // O Java executa os métodos da subclasse ao objeto recebido.
+        // Executando os métodos da subclasse do objeto recebido.
 
         d.processarDoacao();
         System.out.println("Taxa administrativa: R$ " + d.calcularTaxaAdministrativa());

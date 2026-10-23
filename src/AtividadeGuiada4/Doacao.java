@@ -36,12 +36,13 @@ public abstract class Doacao {
         this.valorBase = valorBase;
     }
 
-    // Método concreto compartilhado pelas subclasses
+    // Metodo concreto usado nas subclasses
     public String exibirResumo() {
         return "Doação ID: " + id + " | Doador: " + doador;
     }
 
     public abstract double calcularTaxaAdministrativa();
+
 
     public abstract void processarDoacao();
 }

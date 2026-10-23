@@ -8,6 +8,7 @@ public class DoacaoDinheiro extends Doacao {
         this.meioPagamento = meioPagamento;
     }
 
+
     public String getMeioPagamento() {
         return meioPagamento;
     }
@@ -15,6 +16,8 @@ public class DoacaoDinheiro extends Doacao {
     public void setMeioPagamento(String meioPagamento) {
         this.meioPagamento = meioPagamento;
     }
+
+
 
     @Override
     public double calcularTaxaAdministrativa() {
