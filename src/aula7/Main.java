@@ -26,7 +26,7 @@ public class Main {
         imprimirRelatorio(educador);
     }
 
-        // Metode Dolimonfice: recebe a classe ABSTRATA como pacânetce public static void imprimicRelatonio (Voluntario v){
+        // Metode Dolimonfice: recebe a classe ABSTRATA como parâmetro
         public static void imprimirRelatorio(Voluntario v) {
             System.out.println("--- RELATÓRIO ---");
             System.out.println(v.getInfo());
